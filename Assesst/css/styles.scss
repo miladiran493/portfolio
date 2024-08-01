@@ -165,9 +165,16 @@ main {
 
 }
 
+@media (max-width:200px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 @media (max-width:750px) {
     nav {
-        padding: 5px 10px;
         display: flex;
         justify-content: center;
         align-items: center;
